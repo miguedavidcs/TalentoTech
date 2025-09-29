@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"><!--Lenguaje en Español y "en" es ingles-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pag Web Minimalista</title>
+    <link rel="stylesheet" href="css/Stilo.css">
+    
 </head>
 <body>
-    
+    <!--Cabecera-->    
+    <header>
+        <div class="menu-nav">
+        <h1>Mi primera pag web</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mi</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#galeria">Galeria</a>
+        </nav>
+        </div>
+    </header>
+    <!--Main Componente del Cuerpo de la pag web-->
+    <!--Seccion de inicio-->
+    <main id="inicio">
+        <section>
+            <h2>Bienvenido</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque nisi beatae quasi reprehenderit. Nihil obcaecati dolorem qui laudantium, dolores assumenda et sequi vero fugit consequuntur vel placeat suscipit nostrum libero.</p>
+        </section>
+        <!--Seccion de Sobre mi-->
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <article>
+                <h3>Perfil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam dolore repudiandae sunt rerum libero eos, assumenda nulla perspiciatis et architecto voluptatum maiores saepe facilis omnis ipsa quam quidem fugiat.</p>
+            </article>
+            <article>
+                <h3>Interes</h3>
+                <ul>
+                    <li>Programacion</li>
+                    <li>Datas y Analisis</li>
+                    <li>Docencia</li>
+                </ul>
+            </article>
+        </section>
+        <!--Seccion de Contacto-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laboriosam nesciunt, natus ab odit ad quos accusamus, a amet facere tenetur voluptatibus dolorum ratione ipsum eius vero repudiandae! Delectus, rerum.</p>
+        </section>
+        <!--Seccion de Galeria-->
+        <section id="galeria">
+            <h1>Galeria</h1>
+            <div class="container">
+                <div class="card-grid">
+                    <div class="card">
+                        <img class="card-img" src="img/img1.jpg" alt="Imagen 1">
+                        <div class="card-content">
+                            <h3>CR7</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/img2.jpg" alt="Imagen 2">
+                        <div class="card-content">
+                            <h3>Luchito7</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/img3.png" alt="Imagen 3">
+                        <div class="card-content">
+                            <h3>LuisSuarez19</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <!--Componente de Pie de pag Web-->
+    <footer>
+        <small>&copy; 2025 Talento Tech. Todos los Derechos reservadados.</small>
+    </footer>
 </body>
 </html>
